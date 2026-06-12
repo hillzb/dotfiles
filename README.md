@@ -1,3 +1,3 @@
 ## Configuration Files
 
-Common configuration files here.
+Bash and tmux configuration files here.
