@@ -91,7 +91,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+# unalias gs and send error (exit code 2) into /dev/null, no longer needed
 unalias gs 2>/dev/null
+# alias gs for easy checking
 alias gs='git status'
 
 # Add an "alert" alias for long running commands.  Use like so:
